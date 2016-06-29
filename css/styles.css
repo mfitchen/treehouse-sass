@@ -3,6 +3,58 @@ body {
   font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
 }
 
+.wrap {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar {
+  height: 65px;
+  margin-bottom: 15px;
+  padding: 0 10px 0 8px;
+  box-shadow: 0 3px .01px #dfe1e2;
+}
+
+.navbar-right {
+  float: right;
+  margin-top: 5px;
+  position: relative;
+}
+
+.hr-left {
+  background-color:#bfc7ce;
+   -webkit-transform:rotate(90deg);
+   position:absolute;
+   top: 16px;
+   width:30px;
+   height:2px;
+   left:97px;
+   border:2px;
+}
+
+.hr-right {
+  background-color:#bfc7ce;
+   -webkit-transform:rotate(90deg);
+   position:absolute;
+   top: 16px;
+   width:30px;
+   height:2px;
+   left:147px;
+   border:2px;
+}
+
+.main-content {
+  padding: 0 8px;
+}
+
+h1 {
+  font-size: 20px;
+  vertical-align: middle;
+  padding-top: 10px;
+  color: #3e464c;
+}
+
 h5, p {
   color: #7b8b8e;
 }
@@ -22,6 +74,7 @@ h3 {
 
 .nav-icon {
   width: 30px;
+  margin-top: 3px;
 }
 
 .icon {
@@ -80,7 +133,11 @@ li {
   height: 300px;
   border-radius: 5px;
   background-color: #ffffff;
-  box-shadow: 0 2px 1px #dfe1e2;
+  box-shadow: 0 2px 0 #dfe1e2;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
 }
 
 .nav {
@@ -133,4 +190,20 @@ li {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.pink {
+  background-color: #f092b0;
+}
+
+.purple {
+  background-color: #838cc7;
+}
+
+.python {
+  color: #f092b0;
+}
+
+.wp {
+  color: #838cc7;
 }
