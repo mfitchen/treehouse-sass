@@ -56,4 +56,42 @@
 
 .req-content {
   background-color: #f9fafa;
+  padding: 1em;
+  border-radius: 5px;
+  padding-left: 5em;
+  position: relative;
+}
+
+.req-content img.gray-book {
+  position: absolute;
+  top: 45%;
+  left: 1.5em;
+  transform: translateY(-50%);
+}
+
+.req-content img.gray-star {
+  position: absolute;
+  top: 45%;
+  right: 1.5em;
+  transform: translateY(-50%);
+}
+
+.course-progress {
+  padding-left: 5em;
+  position: relative;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teacher {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
 }
