@@ -1,3 +1,9 @@
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  @include border-box;
+}
+
 body {
   background-color: #edeff0;
   font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
