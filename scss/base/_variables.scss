@@ -1,1 +1,9 @@
-$primary-color: #3079ab; 
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 150em;
+
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 20em)";
+$breakpoint-medium: "only screen and (min-width: 30em)";
+
+$primary-color: #3079ab;

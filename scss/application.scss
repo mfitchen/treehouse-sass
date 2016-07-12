@@ -1,3 +1,16 @@
 @import "base/index";
 @import "layout/index";
 @import "components/index";
+
+@media #{$breakpoint-medium} {
+  .container {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .column-#{$i} {
+      width: 100% / $grid-columns * $i;
+      margin: 0;
+    }
+  }
+}
