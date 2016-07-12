@@ -3,3 +3,31 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.main-content {
+  padding: 0 8px;
+}
+
+.content {
+  margin: 0 30px;
+}
+
+.course {
+  width: 500px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 #dfe1e2;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  height: 50px;
+  background-color: #2c9676;
+  padding: 0 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

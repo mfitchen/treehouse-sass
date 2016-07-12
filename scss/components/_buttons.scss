@@ -1,0 +1,43 @@
+.button {
+  margin-top: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.content .icon {
+  width: 20px;
+}
+
+.icon-buttons {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  float: right;
+  padding: 6px;
+  margin-bottom: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#star {
+  margin-left: 8px;
+}
+
+.button span {
+  border: 2px solid #eaedef;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.button .word {
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.word {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
